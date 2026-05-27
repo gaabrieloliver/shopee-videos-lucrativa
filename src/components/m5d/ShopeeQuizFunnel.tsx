@@ -5,6 +5,29 @@ import { SalesPage } from "./SalesPage";
 
 type ScreenState = "quiz" | "loading" | "sales";
 
+// CONFIGURAÇÃO DO WEBHOOK (ZAPIER / MAKE / CRMs):
+// Cole a URL do seu webhook abaixo para enviar leads automaticamente (ex: "https://hook.us1.make.com/xxxxxx")
+const WEBHOOK_URL = "";
+
+async function sendLeadToWebhook(answers: Record<string, string>) {
+  if (!WEBHOOK_URL) return;
+  try {
+    await fetch(WEBHOOK_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email: answers.email,
+        timestamp: new Date().toISOString(),
+        quiz_answers: answers,
+      }),
+    });
+  } catch (error) {
+    console.error("Erro ao enviar lead para o webhook:", error);
+  }
+}
+
 export function ShopeeQuizFunnel() {
   const [screen, setScreen] = useState<ScreenState>("quiz");
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -24,6 +47,7 @@ export function ShopeeQuizFunnel() {
   const handleQuizComplete = (finalAnswers: Record<string, string>) => {
     setAnswers(finalAnswers);
     setScreen("loading");
+    sendLeadToWebhook(finalAnswers);
   };
 
   const handleLoadingComplete = () => {

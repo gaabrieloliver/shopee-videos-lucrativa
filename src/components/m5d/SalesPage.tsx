@@ -57,7 +57,10 @@ export function SalesPage({ answers }: SalesPageProps) {
     setActiveFaq(activeFaq === index ? null : index);
   };
 
-  const checkoutUrl = "https://pay.kiwify.com.br/6jSKNRV";
+  const email = answers?.email || "";
+  const checkoutUrl = email
+    ? `https://pay.kiwify.com.br/6jSKNRV?email=${encodeURIComponent(email)}`
+    : "https://pay.kiwify.com.br/6jSKNRV";
 
   const getPersonalizedDiagnostic = () => {
     const nicho = answers.q6 === "achadinhos" 

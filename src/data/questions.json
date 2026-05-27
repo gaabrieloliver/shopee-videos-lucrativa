@@ -1,0 +1,121 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Qual é o seu nível de experiência atual com vendas na internet?",
+      "type": "single",
+      "options": [
+        { "label": "Iniciante absoluto (nunca vendi nada)", "value": "iniciante", "icon": "User" },
+        { "label": "Já tentei outras estratégias mas sem resultados consistentes", "value": "tentou_sem_resultado", "icon": "RotateCcw" },
+        { "label": "Intermediário (faço algumas vendas pingadas)", "value": "intermediario", "icon": "Activity" },
+        { "label": "Profissional (quero escalar meus ganhos com novas fontes)", "value": "profissional", "icon": "TrendingUp" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Qual é o seu principal objetivo com a Shopee Vídeos Lucrativa?",
+      "type": "single",
+      "options": [
+        { "label": "Faturar minha primeira comissão rápida", "value": "comissao_rapida", "icon": "Flame" },
+        { "label": "Construir uma renda extra de R$ 2 mil a R$ 5 mil por mês", "value": "renda_extra", "icon": "DollarSign" },
+        { "label": "Viver 100% da internet e criar um negócio digital sólido", "value": "viver_internet", "icon": "Target" },
+        { "label": "Aprender a vender sem precisar gastar nada com anúncios", "value": "sem_anuncios", "icon": "ShieldCheck" }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Quanto tempo você tem disponível para aplicar o método?",
+      "type": "single",
+      "options": [
+        { "label": "Menos de 1 hora por dia (ideal para conciliar com trabalho/estudos)", "value": "menos_1h", "icon": "Clock" },
+        { "label": "1 a 2 horas por dia", "value": "1_2h", "icon": "Clock" },
+        { "label": "2 a 4 horas por dia", "value": "2_4h", "icon": "Clock" },
+        { "label": "Mais de 4 horas por dia (tempo integral)", "value": "mais_4h", "icon": "Clock" }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Qual é o seu maior medo ou obstáculo para começar a postar vídeos?",
+      "type": "single",
+      "options": [
+        { "label": "Tenho vergonha e não quero aparecer nos vídeos", "value": "nao_aparecer", "icon": "Lock" },
+        { "label": "Não sei editar vídeos nem criar roteiros persuasivos", "value": "sem_edicao", "icon": "Video" },
+        { "label": "Tenho medo de postar e não ter nenhuma visualização", "value": "sem_views", "icon": "TrendingUp" },
+        { "label": "Não sei como garimpar produtos que vendem rápido", "value": "sem_garimpo", "icon": "ShoppingBag" }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Você já possui uma conta de afiliado ativa na Shopee?",
+      "type": "single",
+      "options": [
+        { "label": "Não, quero aprender a criar do absoluto zero", "value": "nao_cadastro", "icon": "User" },
+        { "label": "Sim, mas está parada ou sem gerar nenhuma comissão", "value": "parada", "icon": "Clock" },
+        { "label": "Sim, e já faço algumas vendas esporádicas", "value": "esporadicas", "icon": "ThumbsUp" }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Qual nicho de produtos você acha mais interessante para começar?",
+      "type": "single",
+      "options": [
+        { "label": "Achadinhos domésticos e utilidades para o dia a dia", "value": "achadinhos", "icon": "ShoppingBag" },
+        { "label": "Tecnologia, eletrônicos e gadgets inovadores", "value": "tecnologia", "icon": "Smartphone" },
+        { "label": "Moda, maquiagem e cuidados pessoais", "value": "moda", "icon": "User" },
+        { "label": "Brinquedos, decoração e produtos para pets", "value": "pets_decor", "icon": "ThumbsUp" }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Qual a sua maior dificuldade atual para obter resultados?",
+      "type": "single",
+      "options": [
+        { "label": "Falta de um método passo a passo detalhado e validado", "value": "sem_metodo", "icon": "Target" },
+        { "label": "Falta de tempo para edições complicadas no computador", "value": "sem_tempo", "icon": "Clock" },
+        { "label": "Excesso de informação sem saber o que realmente funciona", "value": "excesso_info", "icon": "HelpCircle" },
+        { "label": "Medo de perder dinheiro investindo em anúncios pagos", "value": "medo_anuncios", "icon": "DollarSign" }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Quantos seguidores você tem em suas redes sociais atualmente?",
+      "type": "single",
+      "options": [
+        { "label": "Começando do absoluto zero (0 seguidores)", "value": "zero_seguidores", "icon": "User" },
+        { "label": "Menos de 1.000 seguidores", "value": "menos_1k", "icon": "Users" },
+        { "label": "Entre 1.000 e 5.000 seguidores", "value": "1k_5k", "icon": "Users" },
+        { "label": "Mais de 5.000 seguidores", "value": "mais_5k", "icon": "Users" }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Se você recebesse um método simples passo a passo, como se dedicaria?",
+      "type": "single",
+      "options": [
+        { "label": "Estou 100% determinado a aplicar o método todos os dias", "value": "totalmente", "icon": "CheckCircle" },
+        { "label": "Quero aplicar, mas preciso de algo prático que caiba na rotina", "value": "parcialmente", "icon": "ThumbsUp" },
+        { "label": "Vou testar para ver se dá certo", "value": "testar", "icon": "HelpCircle" }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Para onde devemos enviar o seu diagnóstico completo e liberar o seu acesso promocional?",
+      "type": "email",
+      "options": []
+    }
+  ],
+  "milestones": [
+    {
+      "afterIndex": 4,
+      "title": "Excelente progresso! Seu perfil é altamente qualificado para Contas Faceless (Sem Aparecer).",
+      "text": "Sabia que mais de 87% dos afiliados que geram múltiplos 5 dígitos por mês na Shopee Vídeos usam perfis temáticos sem nunca revelar o próprio rosto? Essa abordagem permite criar várias contas de nichos diferentes simultaneamente, multiplicando os ganhos sem demandar exposição de imagem. Vamos continuar moldando o seu diagnóstico...",
+      "image": "/assets/m5d/m5dFundo.png"
+    },
+    {
+      "afterIndex": 8,
+      "title": "Perfil de Afiliado Traçado com Sucesso!",
+      "text": "Cruzando seus dados, percebemos que seus maiores temores são a falta de tempo e o receio de começar com zero seguidores. Fique tranquilo: a metodologia do Shopee Vídeos Lucrativa foi criada exatamente para iniciantes absolutos. Você aprenderá a técnica de edição rápida antirruído no celular (que leva apenas 5 minutos) para criar contas profissionais do absoluto zero e atrair milhares de visualizações orgânicas. Falta apenas o último passo...",
+      "image": "/assets/m5d/m5dFundo.png"
+    }
+  ]
+}

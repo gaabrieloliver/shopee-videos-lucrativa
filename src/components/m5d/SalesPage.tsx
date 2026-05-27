@@ -103,8 +103,8 @@ export function SalesPage({ answers }: SalesPageProps) {
       icon: Smartphone,
     },
     {
-      title: "Garimpo Estrangeiro",
-      desc: "Como encontrar os melhores vídeos de produtos virais de alta conversão em sites fora do Brasil.",
+      title: "Ferramenta de Garimpo",
+      desc: "Como encontrar os melhores vídeos de produtos virais de alta conversão.",
       icon: ShoppingBag,
     },
     {

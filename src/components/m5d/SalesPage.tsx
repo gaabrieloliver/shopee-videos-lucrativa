@@ -17,6 +17,7 @@ import {
   BookOpen,
   CalendarCheck,
   ShoppingBag,
+  BarChart2,
 } from "lucide-react";
 import { CTAButton } from "./CTAButton";
 import { Testimonials } from "./Testimonials";
@@ -107,9 +108,9 @@ export function SalesPage({ answers }: SalesPageProps) {
       icon: ShoppingBag,
     },
     {
-      title: "Edição Antirruído",
-      desc: "Domine a edição de 5 minutos pelo celular para tornar qualquer vídeo original para o algoritmo.",
-      icon: Flame,
+      title: "Análise de Métricas",
+      desc: "Saiba exatamente o que cada número significa e como agir.",
+      icon: BarChart2,
     },
     {
       title: "Algoritmo Shopee",
@@ -122,9 +123,9 @@ export function SalesPage({ answers }: SalesPageProps) {
       icon: Lock,
     },
     {
-      title: "Império de Contas",
-      desc: "Como escalar seus resultados criando e gerenciando múltiplos perfis sem misturar os dados.",
-      icon: Zap,
+      title: "Proteção contra Irrelevantes",
+      desc: "Aprenda a técnica correta de edição que passa ilesa pelo filtro de spam da Shopee.",
+      icon: ShieldCheck,
     },
   ];
 
@@ -183,15 +184,15 @@ export function SalesPage({ answers }: SalesPageProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-4xl mb-12">
             <div className="p-5 bg-zinc-900/30 border border-red-900/10 rounded-2xl flex flex-col items-center justify-center hud-accent">
               <span className="text-xl sm:text-2xl font-display font-extrabold italic text-red-500 uppercase leading-none mb-1">
-                R$ 100 MIL+
+                R$ 60 MIL+
               </span>
               <span className="text-zinc-500 text-[10px] sm:text-xs font-mono uppercase tracking-wider">
-                Faturados como Afiliados
+                Faturados como Afiliado
               </span>
             </div>
             <div className="p-5 bg-zinc-900/30 border border-red-900/10 rounded-2xl flex flex-col items-center justify-center hud-accent">
               <span className="text-xl sm:text-2xl font-display font-extrabold italic text-red-500 uppercase leading-none mb-1">
-                10 MILHÕES+
+                2 MILHÕES+
               </span>
               <span className="text-zinc-500 text-[10px] sm:text-xs font-mono uppercase tracking-wider">
                 Visualizações Orgânicas
